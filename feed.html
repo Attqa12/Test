@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Vinegar Food</title>
+    <link rel="stylesheet" href="feed.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Vinegar Food</h1>
+        <p>Your go-to spot for delicious meals!</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <!-- Gradient-line -->
+        <div class="gradient-line"></div>
+        <button class="hamburger" onclick="toggleMenu()">☰</button> <!-- Hamburger icon -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+
+            <!-- Dropdown Menu for Meals -->
+            <li class="dropdown">
+                <a href="meals.html" onmouseover="toggleDropdown(event)">Meals</a>
+                <div class="dropdown-content">
+                    <a href="meals.html#regular">Regular</a>
+                    <a href="meals.html#lunch">Lunch</a>
+                    <a href="meals.html#snacks">Snacks</a>
+                    <a href="meals.html#desserts">Desserts</a>
+                    <a href="meals.html#beverages">Beverages</a>
+                </div>
+            </li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="award.html">Awards</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="recipe.html">Recipe of the Month</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="feed.html">Feedback</a></li>
+        </ul>
+        <div class="gradient-line"></div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="head">
+        <h1>Feedback</h1>
+        <p>We value your opinions and suggestions!</p>
+    </div>
+
+    <!-- Feedback Section -->
+    <section class="feedback-section">
+            <!-- Feedback Slider -->
+            <div class="feedback-slider">
+                <div class="slider">
+                    <!-- Original Cards -->
+                    <div class="card">
+                        <img src="material for vinegar food/image1.jpeg" alt="Customer Image">
+                        <p>"Amazing food and great ambiance!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- John Doe</h3>
+                    </div>
+                    <div class="card">
+                        <img src="material for vinegar food/image2.jpg" alt="Customer Image">
+                        <p>"Loved the desserts, absolutely recommend!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- Jane Smith</h3>
+                    </div>
+                    <div class="card">
+                        <img src="material for vinegar food/image3.jpeg" alt="Customer Image">
+                        <p>"Affordable prices and high-quality meals."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- Michael Brown</h3>
+                    </div>
+            
+                    <!-- Duplicate Cards -->
+                    <div class="card">
+                        <img src="material for vinegar food/image4.jpg" alt="Customer Image">
+                        <p>"The flavors are unmatched! Every dish feels like a masterpiece."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- John Martson</h3>
+                    </div>
+                    <div class="card">
+                        <img src="material for vinegar food/image8.jpg" alt="Customer Image">
+                        <p>"An unforgettable culinary journey. I can't wait to return!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- David J.</h3>
+                    </div>
+                    <div class="card">
+                        <img src="material for vinegar food/image9.jpg" alt="Customer Image">
+                        <p>"Perfect ambiance and delicious food. A must-visit spot for everyone."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- Will Smith</h3>
+                    </div>
+                    <div class="card">
+                        <img src="material for vinegar food/image5.jpg" alt="Customer Image">
+                        <p>"The best dining experience I've ever had. Highly recommend!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- Sarah Lee</h3>
+                    </div>
+                    <div class="card">
+                        <img src="material for vinegar food/image10.jpg" alt="Customer Image">
+                        <p>"Exceptional service and mouth-watering meals. Five stars!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- Robert Green</h3>
+                    </div>
+                    <div class="card">
+                        <img src="material for vinegar food/image6.jpg" alt="Customer Image">
+                        <p>"A hidden gem! Every bite was a delight."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- Emily White</h3>
+                    </div>
+                    <div class="card">
+                        <img src="material for vinegar food/image7.jpg" alt="Customer Image">
+                        <p>"Perfect for family dinners. Great variety and flavor."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>- David Brown</h3>
+                    </div>                    
+                </div>
+            </div>
+              
+
+            <!-- Feedback Form -->
+            <div class="feedback-form">
+                <h2>Share Your Feedback</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="" disabled selected>Rate Us</option>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Good</option>
+                        <option value="3">3 - Average</option>
+                        <option value="2">2 - Poor</option>
+                        <option value="1">1 - Terrible</option>
+                    </select>
+
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" placeholder="Your Comments" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-btn">Submit Feedback</button>
+                </form>
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>Discover the best flavors from around the world. We’re dedicated to serving you unforgettable dining
+                    experiences.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meals.html">Meals</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Flavor St, Food City, FL 45678</p>
+                <p><i class="fas fa-phone-alt"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> contact@yourwebsite.com</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 YourWebsite. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="aboutus.js"></script>
+</body>
+</html>

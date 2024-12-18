@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Catering Section 2 Styling */
+#catering-section2 {
+    background-color: #1c1f24;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.catering-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.catering-image2 img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.catering-content2 {
+    width: 55%;
+}
+
+.catering-content2 h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.catering-content2 p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d1d1d1;
+    margin-bottom: 15px;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-right: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #e55d00;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .catering-container2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .catering-content2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .cta-buttons {
+        text-align: center;
+    }
+
+    .cta-buttons .btn {
+        margin-bottom: 10px;
+    }
+
+    .catering-image2 img {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .catering-content2 h2 {
+        font-size: 2em;
+    }
+
+    .catering-content2 p {
+        font-size: 1.1em;
+    }
+}
+
+</style>
+<body>
+    <section id="catering-section2">
+        <div class="catering-container2">
+            <div class="catering-image2">
+                <img src="material for vinegar food/catering.jpg" alt="Catering Service">
+            </div>
+            <div class="catering-content2">
+                <h2>Our Catering Services</h2>
+                <p>Whether you're planning a small gathering or a large event, our catering services offer a wide range of delicious options. Let us bring the best food to your special occasion, tailored to your needs and preferences.</p>
+                <p>From custom menus to flawless execution, we guarantee a memorable dining experience. Choose from a variety of appetizers, entrees, and desserts prepared by our expert chefs.</p>
+                <div class="cta-buttons">
+                    <a href="meals.html" class="btn">View Our Menu</a>
+                    <a href="contact.html" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

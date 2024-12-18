@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Vinegar Food</h1>
+        <p>Your go-to spot for delicious meals!</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <!-- Gradient-line -->
+        <div class="gradient-line"></div>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+
+            <!-- Dropdown Menu for Meals -->
+            <li class="dropdown">
+                <a href="meals.html" onmouseover="toggleDropdown(event)">Meals</a>
+                <div class="dropdown-content">
+                    <a href="meals.html#regular">Regular</a>
+                    <a href="meals.html#lunch">Lunch</a>
+                    <a href="meals.html#snacks">Snacks</a>
+                    <a href="meals.html#desserts">Desserts</a>
+                    <a href="meals.html#beverages">Beverages</a>
+                </div>
+            </li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="award.html" class="active">Awards</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="recipe.html">Recipe of the Month</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="feed.html">Feedback</a></li>
+        </ul>
+        <div class="gradient-line"></div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <h2>Gordon Ramsay Gallery</h2>
+        <p>Explore the highlights of Gordon Ramsay's incredible journey, from his Michelin-starred restaurants to his
+            conic TV shows. Each image captures the passion, precision, and personality that make him a culinarylegend.
+        </p>
+        <div class="gallery-cards">
+            <div class="gallery-card">
+                <img src="material for vinegar food/gallery5.jpg" alt="Gordon Ramsay in the Kitchen">
+                <p>Gordon Ramsay cooking is a masterclass in precision, passion, and high energy. Known for his
+                    fierypersonality and exceptional culinary skills, he effortlessly transforms simple ingredients
+                    intoextraordinary dishes, blending technique with creativity.</p>
+            </div>
+            <div class="gallery-card">
+                <img src="material for vinegar food/gallery4.jpg" alt="Gordon Ramsay at Hell's Kitchen">
+                <p>Gordon Ramsay meets his match in a fiery showdown with a young, fearless chef who isn't afraid to
+                    push boundaries. As tempers flare and dishes sizzle, a surprising mutual respect begins to simmer
+                    beneath the surface..</p>
+            </div>
+            <div class="gallery-card">
+                <img src="material for vinegar food/gallery6.jpg" alt="Gordon Ramsay with Philanthropic Efforts">
+                <p>Gordon Ramsay is known for his sharp tongue and fiery personality, often delivering cutting remarks
+                    in the heat of the moment. While his humor is sometimes edgy, such comments can spark controversy
+                    and criticism, highlighting the fine line between entertainment and offense.</p>
+            </div>
+            <div class="gallery-card">
+                <img src="material for vinegar food/old1.jpeg" alt="Gordon Ramsay with Philanthropic Efforts">
+                <p>In the good old days, vinegar was a staple in every kitchen, adding a tangy kick to pickled
+                    vegetables, hearty stews, and simple salads that brought meals to life.</p>
+            </div>
+            <div class="gallery-card">
+                <img src="material for vinegar food/old2.jpg" alt="Gordon Ramsay with Philanthropic Efforts">
+                <p>Back then, families relied on homemade vinegar to preserve the harvest, creating flavors that carried
+                    the essence of patience and tradition.</p>
+            </div>
+            <div class="gallery-card">
+                <img src="material for vinegar food/old3.jpg" alt="Gordon Ramsay with Philanthropic Efforts">
+                <p>The good old days were filled with dishes where vinegar was the star—whether it was drizzled over
+                    crispy fish and chips or blended into marinades that made every bite unforgettable.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2>Vinegar Food Gallery</h2>
+        <p>A vinegar food gallery is a celebration of tangy, bold flavors and culinary creativity. From vibrant pickled
+            vegetables bursting with color to golden-brown fish and chips paired with malt vinegar, every dish tells a
+            story of balance and zest. Imagine beautifully plated salads kissed with balsamic drizzle, tender meat
+            dishes marinated to perfection, and delicate sauces with a sharp yet harmonious bite. Whether it's a
+            refreshing vinaigrette, a smoky barbecue glaze, or a spicy vinegar-infused dip, this gallery showcases the
+            versatility of vinegar as an essential ingredient that elevates both humble and gourmet dishes alike.</p>
+        <div class="gallery-cards">
+            <div class="food-card">
+                <img src="material for vinegar food/food1.jpeg" alt="Gordon Ramsay in the Kitchen">
+            </div>
+            <div class="food-card">
+                <img src="material for vinegar food/food2.jpg" alt="Gordon Ramsay in the Kitchen">
+            </div>
+            <div class="food-card">
+                <img src="material for vinegar food/food3.jpg" alt="Gordon Ramsay in the Kitchen">
+            </div>
+            <div class="food-card">
+                <img src="material for vinegar food/food4.jpg" alt="Gordon Ramsay in the Kitchen">
+            </div>
+            <div class="food-card">
+                <img src="material for vinegar food/food5.jpg" alt="Gordon Ramsay in the Kitchen">
+            </div>
+            <div class="food-card">
+                <img src="material for vinegar food/food6.jpg" alt="Gordon Ramsay in the Kitchen">
+            </div>
+        </div>
+    </section>
+
+    <section id="rest" class="rest-section">
+        <h2>Restaurant Gallery</h2>
+        <div class="restaurant-cards">
+        <div class="rest-card">
+            <img src="material for vinegar food/gallery1.jpg">
+            <h3>Vinegar Food (London, UK)</h3>
+            <p>Located in the heart of London, this flagship restaurant is where Ramsay earned his three Michelin stars. Known for its elegant and refined dining experience, it offers French-inspired cuisine with a focus on exquisite ingredients and exceptional technique. The atmosphere is intimate, and the dishes are a true representation of Ramsay's culinary mastery.</p>
+        </div>
+        <div class="rest-card">
+            <img src="material for vinegar food/gallery2.jpg">
+            <h3>Vinegar Food (Las Vegas, USA)</h3>
+            <p>Situated inside the Paris Las Vegas Hotel, Gordon Ramsay Steak offers a contemporary take on the classic American steakhouse. The restaurant features a wide range of prime cuts and dry-aged steaks, complemented by a vibrant atmosphere and innovative dishes like Ramsay's signature Beef Wellington. It combines casual elegance with bold flavors, making it a favorite for steak lovers.</p>
+        </div>
+        <div class="rest-card">
+            <img src="material for vinegar food/gallery3.jpg">
+            <h3>Vinegar Food (Islamabad, Pakistan)</h3>
+            <p>Situated in Knightsbridge, Pétrus is a Michelin-starred restaurant known for its fine dining and exceptional wine list. Offering modern French cuisine with contemporary twists, it focuses on seasonal ingredients and a sophisticated dining experience This casual yet chic restaurant focuses on hearty, high-quality British cuisine with a great emphasis on grilled meats, seafood, and burgers. Located in Mayfair, it offers a vibrant setting, making it a great spot for both casual and celebratory dining.</p>
+        </div>
+        <div class="rest-card">
+            <img src="material for vinegar food/rest1.jpg">
+            <h3>Vinegar Food (Tokyo, Japan)</h3>
+            <p>Known for its innovative, contemporary European cuisine, this Tokyo restaurant offers Ramsay's signature style with a local twist. Situated in the luxurious Conrad Tokyo hotel, this fine-dining destination offers breathtaking views of Tokyo Bay and signature dishes such as roasted meats, seafood, and delicious desserts.</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>Discover the best flavors from around the world. We’re dedicated to serving you unforgettable dining
+                    experiences.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meals.html">Meals</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Flavor St, Food City, FL 45678</p>
+                <p><i class="fas fa-phone-alt"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> contact@yourwebsite.com</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Vinegar Food. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="aboutus.js"></script>
+</body>
+
+</html>
